@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="searchContainer">
+            <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+            <a class="waves-effect light-blue accent-1 btn searchControl" id="searchBtn">Search</a>
+        </div>
+        <div id="weatherContainer">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div class="holder"><img id="documentIconImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="bottomDetails"></div>
+                <div id="humidity" class="bottomDetails"></div>
+            </div>
+        </div>
+    </div>
+   <!-- <div id="weatherContainer">
+        <div id="searchContainer">
+                <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+                <a class="waves-effect waves-light btn searchControl" id="searchBtn">Search</a>
+            </div>
+    <div  class="col s12 m7 ">
+        <h2 id="cityHeader" class="header"></h2>
+        <div class="card horizontal">
+          <div id="card-image">
+            <img id="documentIconImg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                </div>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div> -->
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
+
